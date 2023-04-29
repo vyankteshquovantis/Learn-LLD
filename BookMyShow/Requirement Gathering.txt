@@ -1,0 +1,10 @@
+Normal Ticket buyer User → 
+
+    Ticket booking flow → login → search city → movie search →(user can rate and add review as well but we are going with ticket booking flow) select theatre and seat → do payment → download ticket
+    Refund flow 2 → login → see history → (user can perform other action like download ticket, download invoice etc but we are currently looking at refund flow ) → Fill refund request form
+
+Independent Event publisher User
+
+    Publishing event → Login → Fill event details form → do payment
+    Cancelling event → Login → Cancel event
+    Update Event details → Login → Update event details like location/description etc.
