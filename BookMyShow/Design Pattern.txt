@@ -1,0 +1,27 @@
+Factory Design Pattern -> similar kind of objects creation at runtime
+1. Create different kind of event like StandupEvent, MovieEvent, PartyEvent, ExhibitionEvent etc.
+
+
+Observer Design Pattern → when an event happens notify a set of entities
+1. When new movie added to city send notification to users of city
+2. Referral offers for the users
+3. Special promo code for users
+4. Notification to event manager about details of rate at which event 
+booking is going on every time certain percentage of booking completes so that ticket price or no. of seats can
+be increased or decreased for event
+
+
+Singleton Design Pattern → Used when only one instance is required
+1. DbConnection
+2. Logging 
+3. Config
+4. App Analytics -> shows details about payments done throught platform since morning, bookings cancelled since morning etc
+
+
+
+Strategy design pattern → Deciding at runtime which algorithm we are going to use.
+1. Deciding the strategy to decide which event to show at user home page
+2. Deciding the payment strategy at runtime based on what user has selected mode of payment
+3. Deciding the food recommendation algo at runtime based on whether show default recommendation to new user
+or show customized recommendation based on user history 
+
