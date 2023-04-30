@@ -1,10 +1,31 @@
-Normal Ticket buyer User → 
+Actors: Customer, Event Organizer, System
 
-    Ticket booking flow → login → search city → movie search →(user can rate and add review as well but we are going with ticket booking flow) select theatre and seat → do payment → download ticket
-    Refund flow 2 → login → see history → (user can perform other action like download ticket, download invoice etc but we are currently looking at refund flow ) → Fill refund request form
+Actor Functionalities
+1. Search city
+2. Search Movie/Event
+3. Rate Movie
+4. Review Movie
+5. Book a Ticket
+6. Download a Ticket
+7. Ask for Refund
+8. Cancel booking
+9. Report an event issue
+10. Add Food Items
 
-Independent Event publisher User
 
-    Publishing event → Login → Fill event details form → do payment
-    Cancelling event → Login → Cancel event
-    Update Event details → Login → Update event details like location/description etc.
+Event Organizer
+1. Create Event
+2. Cancel Event
+3. Update Event details
+
+
+Common Functionalities
+1. Login
+2. payment
+
+
+System
+1. Email send for Booking Confirm etc.
+2. Update the customer favourite generes when they book a ticket of particular generes
+3. Remove event automatically after happening
+4. Update Occupancy
